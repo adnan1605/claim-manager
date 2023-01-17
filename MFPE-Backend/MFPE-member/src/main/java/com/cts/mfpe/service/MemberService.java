@@ -1,10 +1,10 @@
 package com.cts.mfpe.service;
 
-import java.util.List;
-
 import com.cts.mfpe.model.MemberPolicy;
+
+import java.util.List;
 
 public interface MemberService {
 
-	List<MemberPolicy> viewBills(int policyId,int memberId);
+    List<MemberPolicy> viewBills(int policyId, int memberId);
 }

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/MFPE-authorizatiion/Authorizatiion-Microservice.iml" filepath="$PROJECT_DIR$/MFPE-authorizatiion/Authorizatiion-Microservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/MFPE-Backend.iml" filepath="$PROJECT_DIR$/.idea/MFPE-Backend.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MFPE-claims/claims.iml" filepath="$PROJECT_DIR$/MFPE-claims/claims.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MFPE-member/member.iml" filepath="$PROJECT_DIR$/MFPE-member/member.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MFPE-policy/policy.iml" filepath="$PROJECT_DIR$/MFPE-policy/policy.iml" />
+    </modules>
+  </component>
+</project>

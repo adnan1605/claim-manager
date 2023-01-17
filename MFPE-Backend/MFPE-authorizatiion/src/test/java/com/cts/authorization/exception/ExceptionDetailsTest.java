@@ -10,7 +10,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 @SpringBootTest
 class ExceptionDetailsTest {
 
-	private ExceptionDetails details = new ExceptionDetails(LocalDateTime.now(),"message");
+	private final ExceptionDetails details = new ExceptionDetails(LocalDateTime.now(),"message");
 	
 	@Test
 	void testMessageSetter() {

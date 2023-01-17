@@ -7,7 +7,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
 class AuthorizationExceptionTest {
-	private AuthorizationException e = new AuthorizationException("message");
+	private final AuthorizationException e = new AuthorizationException("message");
 	@Test
 	void testMessageSetter() {
 		assertThat(e).isNotNull();

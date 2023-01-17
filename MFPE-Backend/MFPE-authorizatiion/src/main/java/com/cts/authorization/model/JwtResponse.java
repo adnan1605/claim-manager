@@ -1,3 +1,4 @@
+/*
 package com.cts.authorization.model;
 
 import java.io.Serializable;
@@ -14,4 +15,4 @@ public class JwtResponse implements Serializable {
 	public String getToken() {
 		return this.jwttoken;
 	}
-}
+}*/

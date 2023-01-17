@@ -9,7 +9,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 @SpringBootTest
 class JwtRequestTest {
 
-	private JwtRequest jwtReqAllArg = new JwtRequest("admin", "password");
+	private final JwtRequest jwtReqAllArg = new JwtRequest("admin", "password");
 
 	@Test
 	void testUserNameGetter() {

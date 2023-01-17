@@ -1,3 +1,4 @@
+/*
 package com.cts.authorization.model;
 
 import java.io.Serializable;
@@ -22,4 +23,4 @@ public class JwtRequest implements Serializable {
 		this.setUserName(userName);
 		this.setPassword(password);
 	}
-}
+}*/

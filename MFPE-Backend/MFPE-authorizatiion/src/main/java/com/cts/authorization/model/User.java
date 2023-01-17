@@ -1,26 +1,36 @@
 package com.cts.authorization.model;
 
+import lombok.*;
+import org.hibernate.Hibernate;
+
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
-import javax.persistence.Table;
+import javax.persistence.ManyToMany;
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.List;
+import java.util.Objects;
 
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
+import static javax.persistence.FetchType.EAGER;
+import static javax.persistence.GenerationType.AUTO;
 
-@Getter @Setter @NoArgsConstructor @AllArgsConstructor
+
 @Entity
-@Table(name = "users")
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
 public class User {
 	
 	@Id
-	@GeneratedValue
-	private int id;
-	
-	private String userName;
+	@GeneratedValue(strategy = AUTO)
+	private Long id;
+	private String username;
 	
 	private String password;
-	
+	@ManyToMany(fetch = EAGER)
+	Collection<Role> roles=new ArrayList<>();
+
+
+
 }

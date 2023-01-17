@@ -1,0 +1,410 @@
+2022-12-04_17-48-05 [restartedMain] INFO  c.c.a.AuthorizatiionMicroserviceApplication - Starting AuthorizatiionMicroserviceApplication using Java 18.0.2.1 on LAPTOP-R3PKOKQV with PID 18516 (D:\CLAIM-MANAGEMENT-SYSTEM\MFPE-Backend\MFPE-authorizatiion\target\classes started by mdadn in D:\CLAIM-MANAGEMENT-SYSTEM\MFPE-Backend)
+2022-12-04_17-48-05 [restartedMain] INFO  c.c.a.AuthorizatiionMicroserviceApplication - No active profile set, falling back to default profiles: default
+2022-12-04_17-48-05 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-12-04_17-48-05 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-12-04_17-48-05 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-04_17-48-05 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 72 ms. Found 1 JPA repository interfaces.
+2022-12-04_17-48-05 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=5bbfe226-8e9e-3e7d-9c9e-6c1d5228e411
+2022-12-04_17-48-05 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8400 (http)
+2022-12-04_17-48-05 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8400"]
+2022-12-04_17-48-05 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-12-04_17-48-05 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-12-04_17-48-05 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-12-04_17-48-05 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2426 ms
+2022-12-04_17-48-05 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-04_17-48-05 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.27.Final
+2022-12-04_17-48-05 [restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-12-04_17-48-05 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-12-04_17-48-05 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-12-04_17-48-05 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-12-04_17-48-05 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-04_17-48-05 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-04_17-48-05 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2022-12-04_17-48-05 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-12-04_17-48-05 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-12-04_17-48-05 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2022-12-04_17-48-05 [restartedMain] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2022-12-04_17-48-05 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-12-04_17-53-51 [restartedMain] INFO  c.c.a.AuthorizatiionMicroserviceApplication - Starting AuthorizatiionMicroserviceApplication using Java 18.0.2.1 on LAPTOP-R3PKOKQV with PID 5680 (D:\CLAIM-MANAGEMENT-SYSTEM\MFPE-Backend\MFPE-authorizatiion\target\classes started by mdadn in D:\CLAIM-MANAGEMENT-SYSTEM\MFPE-Backend)
+2022-12-04_17-53-51 [restartedMain] INFO  c.c.a.AuthorizatiionMicroserviceApplication - No active profile set, falling back to default profiles: default
+2022-12-04_17-53-51 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-12-04_17-53-51 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-12-04_17-53-51 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-04_17-53-51 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 85 ms. Found 1 JPA repository interfaces.
+2022-12-04_17-53-51 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=5bbfe226-8e9e-3e7d-9c9e-6c1d5228e411
+2022-12-04_17-53-51 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8400 (http)
+2022-12-04_17-53-51 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8400"]
+2022-12-04_17-53-51 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-12-04_17-53-51 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-12-04_17-53-51 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-12-04_17-53-51 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2868 ms
+2022-12-04_17-53-51 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-04_17-53-51 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.27.Final
+2022-12-04_17-53-51 [restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-12-04_17-53-51 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-12-04_17-53-51 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-12-04_17-53-51 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-12-04_17-53-51 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-04_17-53-51 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-04_17-53-51 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2022-12-04_17-53-51 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-12-04_17-53-51 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-12-04_17-53-51 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2022-12-04_17-53-51 [restartedMain] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2022-12-04_17-53-51 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-12-04_17-57-24 [restartedMain] INFO  c.c.a.AuthorizatiionMicroserviceApplication - Starting AuthorizatiionMicroserviceApplication using Java 18.0.2.1 on LAPTOP-R3PKOKQV with PID 5684 (D:\CLAIM-MANAGEMENT-SYSTEM\MFPE-Backend\MFPE-authorizatiion\target\classes started by mdadn in D:\CLAIM-MANAGEMENT-SYSTEM\MFPE-Backend)
+2022-12-04_17-57-24 [restartedMain] INFO  c.c.a.AuthorizatiionMicroserviceApplication - No active profile set, falling back to default profiles: default
+2022-12-04_17-57-24 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-12-04_17-57-24 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-12-04_17-57-24 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-04_17-57-24 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 56 ms. Found 1 JPA repository interfaces.
+2022-12-04_17-57-24 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=5bbfe226-8e9e-3e7d-9c9e-6c1d5228e411
+2022-12-04_17-57-24 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8400 (http)
+2022-12-04_17-57-24 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8400"]
+2022-12-04_17-57-24 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-12-04_17-57-24 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-12-04_17-57-24 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-12-04_17-57-24 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2199 ms
+2022-12-04_17-57-24 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-04_17-57-24 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.27.Final
+2022-12-04_17-57-24 [restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-12-04_17-57-24 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-12-04_17-57-24 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-12-04_17-57-24 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-12-04_17-57-24 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-04_17-57-24 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-04_17-57-24 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2022-12-04_17-57-24 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-12-04_17-57-24 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-12-04_17-57-24 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2022-12-04_17-57-24 [restartedMain] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2022-12-04_17-57-24 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-12-04_18-47-57 [restartedMain] INFO  c.c.a.AuthorizatiionMicroserviceApplication - Starting AuthorizatiionMicroserviceApplication using Java 18.0.2.1 on LAPTOP-R3PKOKQV with PID 7144 (D:\CLAIM-MANAGEMENT-SYSTEM\MFPE-Backend\MFPE-authorizatiion\target\classes started by mdadn in D:\CLAIM-MANAGEMENT-SYSTEM\MFPE-Backend)
+2022-12-04_18-47-57 [restartedMain] INFO  c.c.a.AuthorizatiionMicroserviceApplication - No active profile set, falling back to default profiles: default
+2022-12-04_18-47-57 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-12-04_18-47-57 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-12-04_18-47-57 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-04_18-47-57 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 61 ms. Found 2 JPA repository interfaces.
+2022-12-04_18-47-57 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=e4dc602a-fc9e-3bab-98c9-f01d4303a375
+2022-12-04_18-47-57 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8400 (http)
+2022-12-04_18-47-57 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8400"]
+2022-12-04_18-47-57 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-12-04_18-47-57 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-12-04_18-47-57 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-12-04_18-47-57 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2424 ms
+2022-12-04_18-47-57 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-04_18-47-57 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.27.Final
+2022-12-04_18-47-57 [restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-12-04_18-47-57 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-12-04_18-47-57 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-12-04_18-47-57 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-12-04_18-47-57 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-12-04_18-47-57 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2022-12-04_18-47-57 [restartedMain] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2022-12-04_18-47-57 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-12-04_18-52-46 [restartedMain] INFO  c.c.a.AuthorizatiionMicroserviceApplication - Starting AuthorizatiionMicroserviceApplication using Java 18.0.2.1 on LAPTOP-R3PKOKQV with PID 13068 (D:\CLAIM-MANAGEMENT-SYSTEM\MFPE-Backend\MFPE-authorizatiion\target\classes started by mdadn in D:\CLAIM-MANAGEMENT-SYSTEM\MFPE-Backend)
+2022-12-04_18-52-46 [restartedMain] INFO  c.c.a.AuthorizatiionMicroserviceApplication - No active profile set, falling back to default profiles: default
+2022-12-04_18-52-46 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-12-04_18-52-46 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-12-04_18-52-46 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-04_18-52-46 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 64 ms. Found 2 JPA repository interfaces.
+2022-12-04_18-52-46 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=e436b45e-398e-3341-8e1f-945d504fcef3
+2022-12-04_18-52-46 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8400 (http)
+2022-12-04_18-52-46 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8400"]
+2022-12-04_18-52-46 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-12-04_18-52-46 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-12-04_18-52-46 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-12-04_18-52-46 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1762 ms
+2022-12-04_18-52-46 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-04_18-52-46 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.27.Final
+2022-12-04_18-52-46 [restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-12-04_18-52-46 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-12-04_18-52-46 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-12-04_18-52-46 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-12-04_18-52-46 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-12-04_18-52-46 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2022-12-04_18-52-46 [restartedMain] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2022-12-04_18-52-46 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-12-04_19-02-20 [restartedMain] INFO  c.c.a.AuthorizatiionMicroserviceApplication - Starting AuthorizatiionMicroserviceApplication using Java 18.0.2.1 on LAPTOP-R3PKOKQV with PID 16104 (D:\CLAIM-MANAGEMENT-SYSTEM\MFPE-Backend\MFPE-authorizatiion\target\classes started by mdadn in D:\CLAIM-MANAGEMENT-SYSTEM\MFPE-Backend)
+2022-12-04_19-02-20 [restartedMain] INFO  c.c.a.AuthorizatiionMicroserviceApplication - No active profile set, falling back to default profiles: default
+2022-12-04_19-02-20 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-12-04_19-02-20 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-12-04_19-02-20 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-04_19-02-20 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 62 ms. Found 2 JPA repository interfaces.
+2022-12-04_19-02-20 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=e436b45e-398e-3341-8e1f-945d504fcef3
+2022-12-04_19-02-20 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8400 (http)
+2022-12-04_19-02-20 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8400"]
+2022-12-04_19-02-20 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-12-04_19-02-20 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-12-04_19-02-20 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-12-04_19-02-20 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2352 ms
+2022-12-04_19-02-20 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-04_19-02-20 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.27.Final
+2022-12-04_19-02-20 [restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-12-04_19-02-20 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-12-04_19-02-20 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-12-04_19-02-20 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-12-04_19-02-20 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-12-04_19-02-20 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2022-12-04_19-02-20 [restartedMain] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2022-12-04_19-02-20 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-12-04_19-04-21 [restartedMain] INFO  c.c.a.AuthorizatiionMicroserviceApplication - Starting AuthorizatiionMicroserviceApplication using Java 18.0.2.1 on LAPTOP-R3PKOKQV with PID 13180 (D:\CLAIM-MANAGEMENT-SYSTEM\MFPE-Backend\MFPE-authorizatiion\target\classes started by mdadn in D:\CLAIM-MANAGEMENT-SYSTEM\MFPE-Backend)
+2022-12-04_19-04-21 [restartedMain] INFO  c.c.a.AuthorizatiionMicroserviceApplication - No active profile set, falling back to default profiles: default
+2022-12-04_19-04-21 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-12-04_19-04-21 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-12-04_19-04-21 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-04_19-04-21 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 45 ms. Found 2 JPA repository interfaces.
+2022-12-04_19-04-21 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=e436b45e-398e-3341-8e1f-945d504fcef3
+2022-12-04_19-04-21 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8400 (http)
+2022-12-04_19-04-21 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8400"]
+2022-12-04_19-04-21 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-12-04_19-04-21 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-12-04_19-04-21 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-12-04_19-04-21 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1794 ms
+2022-12-04_19-04-21 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-04_19-04-21 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.27.Final
+2022-12-04_19-04-21 [restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-12-04_19-04-21 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-12-04_19-04-21 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-12-04_19-04-21 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-12-04_19-04-21 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-04_19-04-21 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-04_19-04-21 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2022-12-04_19-04-21 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-12-04_19-04-21 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-12-04_19-04-21 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2022-12-04_19-04-21 [restartedMain] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2022-12-04_19-04-21 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-12-04_19-06-02 [restartedMain] INFO  c.c.a.AuthorizatiionMicroserviceApplication - Starting AuthorizatiionMicroserviceApplication using Java 18.0.2.1 on LAPTOP-R3PKOKQV with PID 8364 (D:\CLAIM-MANAGEMENT-SYSTEM\MFPE-Backend\MFPE-authorizatiion\target\classes started by mdadn in D:\CLAIM-MANAGEMENT-SYSTEM\MFPE-Backend)
+2022-12-04_19-06-02 [restartedMain] INFO  c.c.a.AuthorizatiionMicroserviceApplication - No active profile set, falling back to default profiles: default
+2022-12-04_19-06-02 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-12-04_19-06-02 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-12-04_19-06-02 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-04_19-06-02 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 56 ms. Found 2 JPA repository interfaces.
+2022-12-04_19-06-02 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=e436b45e-398e-3341-8e1f-945d504fcef3
+2022-12-04_19-06-02 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8400 (http)
+2022-12-04_19-06-02 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8400"]
+2022-12-04_19-06-02 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-12-04_19-06-02 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-12-04_19-06-02 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-12-04_19-06-02 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1806 ms
+2022-12-04_19-06-02 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-04_19-06-02 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.27.Final
+2022-12-04_19-06-02 [restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-12-04_19-06-02 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-12-04_19-06-02 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-12-04_19-06-02 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-12-04_19-06-02 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-04_19-06-02 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-04_19-06-02 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2022-12-04_19-06-02 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-12-04_19-06-02 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-12-04_19-06-02 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2022-12-04_19-06-02 [restartedMain] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2022-12-04_19-06-02 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-12-04_19-17-49 [restartedMain] INFO  c.c.a.AuthorizatiionMicroserviceApplication - Starting AuthorizatiionMicroserviceApplication using Java 18.0.2.1 on LAPTOP-R3PKOKQV with PID 18544 (D:\CLAIM-MANAGEMENT-SYSTEM\MFPE-Backend\MFPE-authorizatiion\target\classes started by mdadn in D:\CLAIM-MANAGEMENT-SYSTEM\MFPE-Backend)
+2022-12-04_19-17-49 [restartedMain] INFO  c.c.a.AuthorizatiionMicroserviceApplication - No active profile set, falling back to default profiles: default
+2022-12-04_19-17-49 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-12-04_19-17-49 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-12-04_19-17-49 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-04_19-17-49 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 54 ms. Found 2 JPA repository interfaces.
+2022-12-04_19-17-49 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=e436b45e-398e-3341-8e1f-945d504fcef3
+2022-12-04_19-17-49 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8400 (http)
+2022-12-04_19-17-49 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8400"]
+2022-12-04_19-17-49 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-12-04_19-17-49 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-12-04_19-17-49 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-12-04_19-17-49 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1757 ms
+2022-12-04_19-17-49 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-04_19-17-49 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.27.Final
+2022-12-04_19-17-49 [restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-12-04_19-17-49 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-12-04_19-17-49 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-12-04_19-17-49 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-12-04_19-17-49 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-04_19-17-49 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-04_19-17-49 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2022-12-04_19-17-49 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7941c69b, org.springframework.security.web.context.SecurityContextPersistenceFilter@1e89f19a, org.springframework.security.web.header.HeaderWriterFilter@1928cfbd, org.springframework.security.web.authentication.logout.LogoutFilter@1a5d156f, CustomAuthorizationFilter(authenticationManager=null), CustomAuthenticationFilter(authenticationManager=org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter$AuthenticationManagerDelegator@54a5a5fa), org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5be58700, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@26d379ca, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6d53ef5, org.springframework.security.web.session.SessionManagementFilter@2d1bb7b, org.springframework.security.web.access.ExceptionTranslationFilter@7c7a6109, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@67921c78]
+2022-12-04_19-17-49 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2022-12-04_19-17-49 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8400"]
+2022-12-04_19-17-49 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8400 (http) with context path ''
+2022-12-04_19-17-49 [restartedMain] INFO  c.c.a.AuthorizatiionMicroserviceApplication - Started AuthorizatiionMicroserviceApplication in 5.53 seconds (JVM running for 6.322)
+2022-12-04_19-17-49 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2022-12-04_19-17-49 [SpringContextShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-12-04_19-17-49 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-12-04_19-17-49 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2022-12-04_19-22-38 [restartedMain] INFO  c.c.a.AuthorizatiionMicroserviceApplication - Starting AuthorizatiionMicroserviceApplication using Java 18.0.2.1 on LAPTOP-R3PKOKQV with PID 17752 (D:\CLAIM-MANAGEMENT-SYSTEM\MFPE-Backend\MFPE-authorizatiion\target\classes started by mdadn in D:\CLAIM-MANAGEMENT-SYSTEM\MFPE-Backend)
+2022-12-04_19-22-38 [restartedMain] INFO  c.c.a.AuthorizatiionMicroserviceApplication - No active profile set, falling back to default profiles: default
+2022-12-04_19-22-38 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-12-04_19-22-38 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-12-04_19-22-38 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-04_19-22-38 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 52 ms. Found 2 JPA repository interfaces.
+2022-12-04_19-22-38 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=b1822cab-79fa-399b-9db7-e25edcdb632a
+2022-12-04_19-22-38 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8400 (http)
+2022-12-04_19-22-38 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8400"]
+2022-12-04_19-22-38 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-12-04_19-22-38 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-12-04_19-22-38 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-12-04_19-22-38 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1852 ms
+2022-12-04_19-22-38 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-04_19-22-38 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.27.Final
+2022-12-04_19-22-38 [restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-12-04_19-22-38 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-12-04_19-22-38 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-12-04_19-22-38 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-12-04_19-22-38 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-04_19-22-38 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-04_19-22-38 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2022-12-04_19-22-38 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3152121b, org.springframework.security.web.context.SecurityContextPersistenceFilter@7c062f0a, org.springframework.security.web.header.HeaderWriterFilter@3fa2df94, org.springframework.security.web.authentication.logout.LogoutFilter@5b79062c, CustomAuthorizationFilter(authenticationManager=null), CustomAuthenticationFilter(authenticationManager=org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter$AuthenticationManagerDelegator@1ada2cfd), org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6cee8a34, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@375ef655, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@11bc6aa4, org.springframework.security.web.session.SessionManagementFilter@29cba9b2, org.springframework.security.web.access.ExceptionTranslationFilter@a2b576f, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@771073bf]
+2022-12-04_19-22-38 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2022-12-04_19-22-38 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8400"]
+2022-12-04_19-22-38 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8400 (http) with context path ''
+2022-12-04_19-22-38 [restartedMain] INFO  c.c.a.AuthorizatiionMicroserviceApplication - Started AuthorizatiionMicroserviceApplication in 5.482 seconds (JVM running for 6.245)
+2022-12-04_19-22-38 [http-nio-8400-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-12-04_19-22-38 [http-nio-8400-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-12-04_19-22-38 [http-nio-8400-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+2022-12-04_19-22-38 [http-nio-8400-exec-1] INFO  c.c.a.f.CustomAuthenticationFilter - User is  adnan1605
+2022-12-04_19-22-38 [http-nio-8400-exec-1] INFO  c.c.a.f.CustomAuthenticationFilter - PassWord 12345
+2022-12-04_19-22-38 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2022-12-04_19-22-38 [SpringContextShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-12-04_19-22-38 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-12-04_19-22-38 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2022-12-04_20-23-17 [restartedMain] INFO  c.c.a.AuthorizatiionMicroserviceApplication - Starting AuthorizatiionMicroserviceApplication using Java 18.0.2.1 on LAPTOP-R3PKOKQV with PID 13544 (D:\CLAIM-MANAGEMENT-SYSTEM\MFPE-Backend\MFPE-authorizatiion\target\classes started by mdadn in D:\CLAIM-MANAGEMENT-SYSTEM\MFPE-Backend)
+2022-12-04_20-23-17 [restartedMain] INFO  c.c.a.AuthorizatiionMicroserviceApplication - No active profile set, falling back to default profiles: default
+2022-12-04_20-23-17 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-12-04_20-23-17 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-12-04_20-23-17 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-04_20-23-17 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 60 ms. Found 2 JPA repository interfaces.
+2022-12-04_20-23-17 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=81526939-77a9-368a-b460-135fd4aadf3c
+2022-12-04_20-23-17 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8400 (http)
+2022-12-04_20-23-17 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8400"]
+2022-12-04_20-23-17 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-12-04_20-23-17 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-12-04_20-23-17 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-12-04_20-23-17 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2192 ms
+2022-12-04_20-23-17 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-04_20-23-17 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.27.Final
+2022-12-04_20-23-17 [restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-12-04_20-23-17 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-12-04_20-23-17 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-12-04_20-23-17 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-12-04_20-23-17 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-04_20-23-17 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-04_20-23-17 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2022-12-04_20-23-17 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@587b8d26, org.springframework.security.web.context.SecurityContextPersistenceFilter@132b213b, org.springframework.security.web.header.HeaderWriterFilter@70ec11b1, org.springframework.security.web.authentication.logout.LogoutFilter@fc8f06b, CustomAuthorizationFilter(authenticationManager=null), CustomAuthenticationFilter(authenticationManager=org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter$AuthenticationManagerDelegator@64e58e6b), org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2b44512, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@397d7bbe, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@24fe785a, org.springframework.security.web.session.SessionManagementFilter@70f19fe8, org.springframework.security.web.access.ExceptionTranslationFilter@107690a, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@12669298]
+2022-12-04_20-23-17 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2022-12-04_20-23-17 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8400"]
+2022-12-04_20-23-17 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8400 (http) with context path ''
+2022-12-04_20-23-17 [restartedMain] INFO  c.c.a.AuthorizatiionMicroserviceApplication - Started AuthorizatiionMicroserviceApplication in 6.613 seconds (JVM running for 7.792)
+2022-12-04_20-23-17 [restartedMain] INFO  c.c.a.service.UserServiceImpl - saving new Role ROLE_USER in databases
+2022-12-04_20-23-17 [restartedMain] INFO  c.c.a.service.UserServiceImpl - saving new Role ROLE_MANAGER in databases
+2022-12-04_20-23-17 [restartedMain] INFO  c.c.a.service.UserServiceImpl - saving new Role ROLE_DEVELOPER in databases
+2022-12-04_20-23-17 [restartedMain] INFO  c.c.a.service.UserServiceImpl - saving new Role ROLE_ADMIN in databases
+2022-12-04_20-23-17 [restartedMain] INFO  c.c.a.service.UserServiceImpl - saving new User adnan_1605 in database
+2022-12-04_20-23-17 [restartedMain] INFO  c.c.a.service.UserServiceImpl - saving new User irfan in database
+2022-12-04_20-23-17 [restartedMain] INFO  c.c.a.service.UserServiceImpl - saving new User sumit in database
+2022-12-04_20-23-17 [restartedMain] INFO  c.c.a.service.UserServiceImpl - saving new User kshitiz in database
+2022-12-04_20-23-17 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-12-04_20-23-17 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2022-12-04_20-23-17 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-12-04_20-23-17 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-12-04_20-23-17 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2022-12-04_20-29-29 [restartedMain] INFO  c.c.a.AuthorizatiionMicroserviceApplication - Starting AuthorizatiionMicroserviceApplication using Java 18.0.2.1 on LAPTOP-R3PKOKQV with PID 13264 (D:\CLAIM-MANAGEMENT-SYSTEM\MFPE-Backend\MFPE-authorizatiion\target\classes started by mdadn in D:\CLAIM-MANAGEMENT-SYSTEM\MFPE-Backend)
+2022-12-04_20-29-29 [restartedMain] INFO  c.c.a.AuthorizatiionMicroserviceApplication - No active profile set, falling back to default profiles: default
+2022-12-04_20-29-29 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-12-04_20-29-29 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-12-04_20-29-29 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-04_20-29-29 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 77 ms. Found 2 JPA repository interfaces.
+2022-12-04_20-29-29 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=81526939-77a9-368a-b460-135fd4aadf3c
+2022-12-04_20-29-29 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8400 (http)
+2022-12-04_20-29-29 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8400"]
+2022-12-04_20-29-29 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-12-04_20-29-29 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-12-04_20-29-29 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-12-04_20-29-29 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2544 ms
+2022-12-04_20-29-29 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-04_20-29-29 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.27.Final
+2022-12-04_20-29-29 [restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-12-04_20-29-29 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-12-04_20-29-29 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-12-04_20-29-29 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-12-04_20-29-29 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-04_20-29-29 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-04_20-29-29 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2022-12-04_20-29-29 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3bbc07e1, org.springframework.security.web.context.SecurityContextPersistenceFilter@41c55d24, org.springframework.security.web.header.HeaderWriterFilter@47b43fac, org.springframework.security.web.authentication.logout.LogoutFilter@469af4e7, CustomAuthorizationFilter(authenticationManager=null), CustomAuthenticationFilter(authenticationManager=org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter$AuthenticationManagerDelegator@50667942), org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2722f482, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@42ca0642, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7bb213a1, org.springframework.security.web.session.SessionManagementFilter@46c87711, org.springframework.security.web.access.ExceptionTranslationFilter@1a69239e, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@661672e1]
+2022-12-04_20-29-29 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2022-12-04_20-29-29 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8400"]
+2022-12-04_20-29-29 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8400 (http) with context path ''
+2022-12-04_20-29-29 [restartedMain] INFO  c.c.a.AuthorizatiionMicroserviceApplication - Started AuthorizatiionMicroserviceApplication in 7.326 seconds (JVM running for 8.491)
+2022-12-04_20-29-29 [restartedMain] INFO  c.c.a.service.UserServiceImpl - saving new Role ROLE_USER in databases
+2022-12-04_20-29-29 [restartedMain] INFO  c.c.a.service.UserServiceImpl - saving new Role ROLE_MANAGER in databases
+2022-12-04_20-29-29 [restartedMain] INFO  c.c.a.service.UserServiceImpl - saving new Role ROLE_DEVELOPER in databases
+2022-12-04_20-29-29 [restartedMain] INFO  c.c.a.service.UserServiceImpl - saving new Role ROLE_ADMIN in databases
+2022-12-04_20-29-29 [restartedMain] INFO  c.c.a.service.UserServiceImpl - saving new User adnan_1605 in database
+2022-12-04_20-29-29 [restartedMain] INFO  c.c.a.service.UserServiceImpl - saving new User irfan in database
+2022-12-04_20-29-29 [restartedMain] INFO  c.c.a.service.UserServiceImpl - saving new User sumit in database
+2022-12-04_20-29-29 [restartedMain] INFO  c.c.a.service.UserServiceImpl - saving new User kshitiz in database
+2022-12-04_20-29-29 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-12-04_20-29-29 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2022-12-04_20-29-29 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-12-04_20-29-29 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-12-04_20-29-29 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2022-12-04_20-32-06 [restartedMain] INFO  c.c.a.AuthorizatiionMicroserviceApplication - Starting AuthorizatiionMicroserviceApplication using Java 18.0.2.1 on LAPTOP-R3PKOKQV with PID 15712 (D:\CLAIM-MANAGEMENT-SYSTEM\MFPE-Backend\MFPE-authorizatiion\target\classes started by mdadn in D:\CLAIM-MANAGEMENT-SYSTEM\MFPE-Backend)
+2022-12-04_20-32-06 [restartedMain] INFO  c.c.a.AuthorizatiionMicroserviceApplication - No active profile set, falling back to default profiles: default
+2022-12-04_20-32-06 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-12-04_20-32-06 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-12-04_20-32-06 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-04_20-32-06 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 61 ms. Found 2 JPA repository interfaces.
+2022-12-04_20-32-06 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=81526939-77a9-368a-b460-135fd4aadf3c
+2022-12-04_20-32-06 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8400 (http)
+2022-12-04_20-32-06 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8400"]
+2022-12-04_20-32-06 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-12-04_20-32-06 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-12-04_20-32-06 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-12-04_20-32-06 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2036 ms
+2022-12-04_20-32-06 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-04_20-32-06 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.27.Final
+2022-12-04_20-32-06 [restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-12-04_20-32-06 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-12-04_20-32-06 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-12-04_20-32-06 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-12-04_20-32-06 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-04_20-32-06 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-04_20-32-06 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2022-12-04_20-32-06 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@132b213b, org.springframework.security.web.context.SecurityContextPersistenceFilter@322c9e6d, org.springframework.security.web.header.HeaderWriterFilter@747e3702, org.springframework.security.web.authentication.logout.LogoutFilter@32553752, CustomAuthorizationFilter(authenticationManager=null), CustomAuthenticationFilter(authenticationManager=org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter$AuthenticationManagerDelegator@62ad8911), org.springframework.security.web.savedrequest.RequestCacheAwareFilter@827a70e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1a8759c0, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7e469bed, org.springframework.security.web.session.SessionManagementFilter@3e1046af, org.springframework.security.web.access.ExceptionTranslationFilter@570de0b5, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@24088b17]
+2022-12-04_20-32-06 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2022-12-04_20-32-06 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8400"]
+2022-12-04_20-32-06 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8400 (http) with context path ''
+2022-12-04_20-32-06 [restartedMain] INFO  c.c.a.AuthorizatiionMicroserviceApplication - Started AuthorizatiionMicroserviceApplication in 6.809 seconds (JVM running for 7.812)
+2022-12-04_20-32-06 [restartedMain] INFO  c.c.a.service.UserServiceImpl - saving new Role ROLE_USER in databases
+2022-12-04_20-32-06 [restartedMain] INFO  c.c.a.service.UserServiceImpl - saving new Role ROLE_MANAGER in databases
+2022-12-04_20-32-06 [restartedMain] INFO  c.c.a.service.UserServiceImpl - saving new Role ROLE_DEVELOPER in databases
+2022-12-04_20-32-06 [restartedMain] INFO  c.c.a.service.UserServiceImpl - saving new Role ROLE_ADMIN in databases
+2022-12-04_20-32-06 [restartedMain] INFO  c.c.a.service.UserServiceImpl - saving new User adnan_1605 in database
+2022-12-04_20-32-06 [restartedMain] INFO  c.c.a.service.UserServiceImpl - saving new User irfan in database
+2022-12-04_20-32-06 [restartedMain] INFO  c.c.a.service.UserServiceImpl - saving new User sumit in database
+2022-12-04_20-32-06 [restartedMain] INFO  c.c.a.service.UserServiceImpl - saving new User kshitiz in database
+2022-12-04_20-32-06 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2022-12-04_20-32-06 [SpringContextShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-12-04_20-32-06 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-12-04_20-32-06 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.

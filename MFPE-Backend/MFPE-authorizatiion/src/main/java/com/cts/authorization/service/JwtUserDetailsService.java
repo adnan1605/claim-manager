@@ -1,8 +1,17 @@
+/*
+
 package com.cts.authorization.service;
 
 import java.util.ArrayList;
+import java.util.Collection;
+import java.util.List;
 
+import com.cts.authorization.model.Role;
+import com.cts.authorization.repository.RoleDao;
+import lombok.AllArgsConstructor;
+import lombok.Data;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
@@ -16,30 +25,50 @@ import com.cts.authorization.repository.UserDao;
 import lombok.extern.slf4j.Slf4j;
 
 @Service @Slf4j
-public class JwtUserDetailsService implements UserDetailsService {
-	
-	@Autowired
-	private UserDao userDao;
+@AllArgsConstructor
+public class JwtUserDetailsService {
 
-	@SuppressWarnings("unused")
-	@Autowired
-	private PasswordEncoder bcryptEncoder;
+    @Autowired
+    private UserDao userDao;
 
-	@Override
-	public UserDetails loadUserByUsername(String userName) {
-		/** fetching user by userName, if user is null the throw exception, otherwise
-		 * return user
-		 */
-		User user = userDao.findByUserName(userName);
+    @Autowired
+    RoleDao roleDao;
+
+
+
+
+
+	*/
+/*public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
+		User user = userDao.findByUsername(username);
 		if (user == null) {
-			throw new UsernameNotFoundException("User not found with username: " + userName);
+			log.error("user not found in data base");
+			throw new UsernameNotFoundException("user not found in data base");
+		} else {
+			log.info("user found in data base : {}", username);
 		}
-		log.info("User found");
-		log.info("user successfully located");
-		org.springframework.security.core.userdetails.User u=new org.springframework.security.core.userdetails.User(user.getUserName(), user.getPassword(),new ArrayList<>());
-		
-		return new MyUserDeails(user);
-		//return new org.springframework.security.core.userdetails.User(user.getUserName(), user.getPassword(),new ArrayList<>());
+		Collection<SimpleGrantedAuthority> authorities = new ArrayList<>();
+
+user.getRoles().forEach(role ->
+				authorities.add(new SimpleGrantedAuthority(role.getName()))
+		);
+
+		return new org.springframework.security.core.userdetails.User(user.getUserName(), user.getPassword(), authorities);
 	}
 
-}
+
+public boolean userVarification(String userName, String password) {
+		// TODO Auto-generated method stu
+		User user=userDao.findByUserName(userName);
+		if(user==null)
+			return false;
+		else if (user.getPassword().equals(password))
+			return true;
+
+
+		return false;
+	}*//*
+
+
+
+}*/

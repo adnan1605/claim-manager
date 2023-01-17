@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="claims" />
+        <module name="member" />
+        <module name="Authorizatiion-Microservice" />
+        <module name="policy" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Authorizatiion-Microservice" target="1.8" />
+      <module name="claims" target="1.8" />
+      <module name="member" target="1.8" />
+      <module name="policy" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Authorizatiion-Microservice" options="-parameters" />
+      <module name="claims" options="-parameters" />
+      <module name="member" options="-parameters" />
+      <module name="policy" options="-parameters" />
+    </option>
+  </component>
+</project>

@@ -1,3 +1,4 @@
+/*
 package com.cts.authorization.model;
 
 import java.util.Arrays;
@@ -29,7 +30,7 @@ public class MyUserDeails implements UserDetails {
 	@Override
 	public String getUsername() {
 		
-		return user.getUserName();
+		return user.getUsername();
 	}
 
 	@Override
@@ -57,3 +58,4 @@ public class MyUserDeails implements UserDetails {
 	}
 
 }
+*/

@@ -6,6 +6,9 @@ import org.springframework.stereotype.Repository;
 import com.cts.authorization.model.User;
 
 @Repository
-public interface UserDao extends JpaRepository<User, Integer> {
-	User findByUserName(String userName);
+public interface UserDao extends JpaRepository<User, Long> {
+
+
+
+    User findByUsername(String username);
 }

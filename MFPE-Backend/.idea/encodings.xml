@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/MFPE-authorizatiion/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/MFPE-authorizatiion/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/MFPE-claims/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/MFPE-claims/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/MFPE-member/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/MFPE-member/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/MFPE-policy/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/MFPE-policy/src/main/resources" charset="UTF-8" />
+  </component>
+</project>
